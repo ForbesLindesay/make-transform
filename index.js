@@ -40,6 +40,8 @@ function FakeStream(finished) {
   this.ended = false
   this.finished = finished
 }
+FakeStream.prototype.readable = true
+FakeStream.prototype.writable = true
 FakeStream.prototype.on = function (name, handler) {
   if (name !== 'error') return this
   this.errorHandlers.push(handler)
