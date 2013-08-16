@@ -21,6 +21,7 @@ it('is just good enough for piping', function (done) {
     })(input))
     .pipe(fs.createWriteStream(output))
     .on('close', function () {
+      console.dir(fs.readFileSync(output, 'utf8'))
       assert(fs.readFileSync(input, 'utf8').toUpperCase() === fs.readFileSync(output, 'utf8'))
       done()
     })
