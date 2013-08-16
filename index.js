@@ -53,6 +53,7 @@ FakeStream.prototype.emit = function (name, data) {
   }
   return this
 }
+FakeStream.prototype.removeListener = function () {}
 FakeStream.prototype.pipe = function (strm) {
   if (arguments.length > 1) {
     throw new Error('make-transform returns a FakeStream, it doesn\'t support additional arguments to pipe')
