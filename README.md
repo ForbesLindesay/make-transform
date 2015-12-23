@@ -13,8 +13,8 @@ The objective was to implement **just** the API needed to support:
 In short, this is a helper for when you are forced to interface with streams by factors outside your controll, but the actual API is just processing strings (a far simpler abstraction).
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/make-transform/master.svg)](https://travis-ci.org/ForbesLindesay/make-transform)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/make-transform.svg)](https://gemnasium.com/ForbesLindesay/make-transform)
-[![NPM version](https://img.shields.io/npm/v/make-transform.svg)](http://badge.fury.io/js/make-transform)
+[![Dependency Status](https://img.shields.io/david/ForbesLindesay/make-transform.svg)](https://david-dm.org/ForbesLindesay/make-transform)
+[![NPM version](https://img.shields.io/npm/v/make-transform.svg)](https://www.npmjs.com/package/make-transform)
 
 ## Installation
 
